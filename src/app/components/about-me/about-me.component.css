@@ -1,0 +1,72 @@
+* {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.background {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h4 {
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.spanContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.descriptionContainer {
+    margin: auto;
+    width: 800px;
+}
+
+.myPhoto {
+    margin: auto;
+    height: 215px;
+    width: 175px;
+    border-radius: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.textAndPhoto {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.contactLogo{
+    height: 30xp;
+    width: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.contactLogos{
+    display: flex;
+    justify-content: center;
+}
