@@ -22,4 +22,9 @@
     flex-wrap: wrap;
 }
 
+.navbar-brand{
+    margin: 10px;
+    padding: 0px;
+    font-size:30px;
+}
 
