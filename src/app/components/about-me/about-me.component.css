@@ -7,6 +7,7 @@
     margin-top: 80px;
     height: max-content;
     padding: 30px;
+    min-width: 300px;
 }
 
 h1 {
@@ -67,4 +68,8 @@ p{
 .contactLogos{
     display: flex;
     justify-content: center;
+}
+
+.email{
+    font-size: 20px;
 }
