@@ -26,7 +26,7 @@ h4 {
     font-size: 20px;
 }
 
-.spanContainer{
+.spanContainer {
     display: flex;
     justify-content: center;
     margin-top: 25px;
@@ -35,6 +35,10 @@ h4 {
 .descriptionContainer {
     margin: auto;
     width: 800px;
+    word-break: break-word;
+    line-break: normal;
+    hyphens: auto;
+    overflow-wrap: break-word;
 }
 
 .myPhoto {
@@ -44,7 +48,7 @@ h4 {
     border-radius: 20px;
 }
 
-p{
+p {
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
@@ -56,20 +60,21 @@ p{
     max-width: 1200px;
     margin: auto;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
-.contactLogo{
+.contactLogo {
     height: 30xp;
     width: 30px;
     border-radius: 5px;
     margin: 5px;
 }
 
-.contactLogos{
+.contactLogos {
     display: flex;
     justify-content: center;
 }
 
-.email{
+.email {
     font-size: 20px;
 }
