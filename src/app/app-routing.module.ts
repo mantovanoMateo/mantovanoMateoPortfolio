@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 const routes: Routes = [
   {path: 'aboutMe', component: AboutMeComponent},
   {path:'proyects',component: ProyectsComponent},
   {path:'techStack',component: TechStackComponent},
+  {path:'experience', component: ExperienceComponent},
   {path:'',redirectTo:'/aboutMe',pathMatch:'full'}
 ];
 

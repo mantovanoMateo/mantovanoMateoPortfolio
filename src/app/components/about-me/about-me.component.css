@@ -1,40 +1,106 @@
 * {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(24, 23, 23);
     color: white;
 }
 
+
 .background {
-    margin-top: 80px;
     height: max-content;
-    padding: 30px;
     min-width: 300px;
 }
 
-h1 {
-    font-size: 60px;
-    text-align: center;
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(src\app\components\about-me\bg.png);
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profilePhoto{
+    background-color: rgba(240, 248, 255, 0);
+    filter: drop-shadow(
+        0 0 10px rgba(0,0,0,.8)
+    );
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.languages1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name:show;
 }
 
 h2 {
-    font-size: 40px;
-    text-align: center;
+    font-size: 70px;
+    text-align: left;
+    background-color: rgba(245, 245, 220, 0);
 }
 
 h4 {
     text-align: justify;
     margin-bottom: 10px;
     font-size: 20px;
+    font-weight: 300;
+}
+
+.heroText{
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .spanContainer {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 10px;
+    background-color: rgba(245, 245, 220, 0);
+}
+
+
+.btn-light{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    width: 150px;
+    transition: all 0.4s ease-out;
+}
+
+.btn-light:hover{
+    background-color: #121212;;
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+.contact{
+    width: 290px;
 }
 
 .descriptionContainer {
     margin: auto;
-    width: 800px;
+    max-width: 1000px;
+    padding: 50px;
     word-break: break-word;
     line-break: normal;
     hyphens: auto;
@@ -63,6 +129,15 @@ p {
     gap: 20px;
 }
 
+.contactBtns{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: rgba(245, 245, 220, 0);
+}
+
 .contactLogo {
     height: 30xp;
     width: 30px;
@@ -78,3 +153,37 @@ p {
 .email {
     font-size: 20px;
 }
+
+@media (max-width: 1000px) {
+    h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .profilePhoto{
+        display: none;
+    }
+
+    .contactBtns{
+        flex-wrap: wrap;
+    }
+
+    .up{
+        max-width: 140px;
+    }
+
+    .languages1{
+        max-width: 250px;
+        margin: auto;
+    }
+
+    .tech{
+        width: 40px;
+    }
+
+    h4{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
