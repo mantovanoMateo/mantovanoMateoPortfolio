@@ -44,13 +44,14 @@ h4{
 .subgroup{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 
     background-color: rgba(240, 248, 255, 0);
 }
 
 .groupItem{
-    min-width: 200px;
+    min-width: 220px;
     background-color: #222222;
     display: flex;
     align-items: center;
@@ -165,4 +166,69 @@ p:hover{
     background-color: #222222;
     max-width: 150px;
     border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+    h2{
+        font-size: 55px;
+        margin: auto;
+        text-align: center;
+    }
+
+    h4{
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    h3{
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    h5{
+        text-align: center;
+        margin: auto;
+    }   
+
+    h6{
+        text-align: center;
+        margin: auto;
+    }
+
+    .proyectDesc{
+        text-align: center;
+    }
+
+    .institution{
+        margin: auto;
+    }
+
+
+    .header{
+        padding-top: 200px;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .proyect{
+        margin: 30px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .subgroup{
+        gap: 25px;
+        padding: 30px;
+    }
+
+    .CertificationTitle{
+        margin-bottom: 20px;
+    }
+
+    .CertificationSubTitle{
+        margin-bottom: 20px;
+    }
 }
