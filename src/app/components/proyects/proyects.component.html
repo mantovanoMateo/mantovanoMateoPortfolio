@@ -20,13 +20,13 @@
                     </div>
                     <div class="resourcesBtns">
                         <div *ngIf="proyect.type == 'frontend' || proyect.type == 'fullstack'" class="spanContainer">
-                            <a class="btn btn-light" href={{proyect.frontEndRepo}}>FrontEnd</a>
+                            <a class="btn btn-light" href={{proyect.frontEndRepo}} target="_blank">FrontEnd</a>
                         </div>
                         <div *ngIf="proyect.type == 'backend' || proyect.type == 'fullstack'" class="spanContainer">
-                            <a class="btn btn-light" href={{proyect.backendRepo}}>BackEnd</a>
+                            <a class="btn btn-light" href={{proyect.backendRepo}} target="_blank">BackEnd</a>
                         </div>
                         <div *ngIf="proyect.preview != ''" class="spanContainer">
-                            <a class="btn btn-light" href={{proyect.preview}}>Preview</a>
+                            <a class="btn btn-light" href={{proyect.preview}} target="_blank">Preview</a>
                         </div>
                     </div>
                 </div>
