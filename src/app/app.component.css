@@ -50,8 +50,19 @@ nav{
     font-size:30px;
 }
 
-.bars{
-    display: none;
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.justify-right{
+    justify-content: right;
+}
+
+ul{
+    margin-right: 0px;
 }
 
 @media (max-width: 1000px) {
