@@ -46,7 +46,8 @@ h2{
 
 .proyectDesc{
     background-color: #222222;
-    margin: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 .tech{
@@ -141,6 +142,10 @@ h5{
 
     .proyect{
         margin: 30px;
+    }
+
+    .proyectDesc{
+        text-align: center;
     }
 
     img{

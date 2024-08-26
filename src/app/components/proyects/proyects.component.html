@@ -15,8 +15,11 @@
                 <h3>{{proyect.title}}</h3>
                 <p class="proyectDesc">{{ proyect.description }}</p>
                 <div class="contactBtns">
-                    <div class="proyectTechnologies">
+                    <!-- <div class="proyectTechnologies">
                         <p *ngFor="let st of proyect.stack" class="tech">{{st}}</p>
+                    </div> -->
+                    <div class="techChips">
+                        <p *ngFor="let st of proyect.stack" class="chip">{{st}}</p>
                     </div>
                     <div class="resourcesBtns">
                         <div *ngIf="proyect.type == 'frontend' || proyect.type == 'fullstack'" class="spanContainer">
