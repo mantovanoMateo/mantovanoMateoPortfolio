@@ -59,7 +59,7 @@ p{
 
 .proyect{
     padding: 40px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 50px;
     background-color: #222222;
@@ -78,7 +78,7 @@ b{
 .proyectImg{
     background-color: rgba(245, 245, 220, 0);
     border-radius: 5px;
-    max-width: 489px;
+    max-width: 400px;
 }
 
 .proyectData{
@@ -112,6 +112,7 @@ b{
 
 .proyectDesc{
     background-color: #222222;
+    letter-spacing: 1px;
 }
 
 .contactBtns{
@@ -123,6 +124,28 @@ b{
     font-weight: 600;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.chip{
+    background-color: #121212;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.techChips{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #12121200;
+    gap: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 300px;
 }
 
 .tech:hover{
@@ -187,5 +210,11 @@ b{
 
     .tech{
         font-size: 10px;
+    }
+
+    .techChips{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
     }
 }

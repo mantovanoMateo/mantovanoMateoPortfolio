@@ -84,7 +84,13 @@ h4 {
     color: black;
     font-weight: 600;
     width: 150px;
+    height: 37px;
     transition: all 0.4s ease-out;
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-light:hover{
@@ -93,6 +99,21 @@ h4 {
     font-weight: 600;
 }
 
+.btn-light:hover h5{
+    color: #f2f2f2;
+}
+
+.ghLogo{
+    background-image: url(src\assets\GitHub.png);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(245, 245, 220, 0);
+    transition: all 0.4s ease-out;
+}
+
+.btn-light:hover .ghLogo{
+    background-image: url(src\assets\githubWhite.png);
+}
 .contact{
     width: 290px;
 }
@@ -105,6 +126,7 @@ h4 {
     line-break: normal;
     hyphens: auto;
     overflow-wrap: break-word;
+    letter-spacing: 1px;
 }
 
 .myPhoto {
@@ -153,6 +175,22 @@ p {
 .email {
     font-size: 20px;
 }
+
+.linkName{
+    font-size: 16px;
+    margin: 0px;
+    background-color: #12121200;
+    color: black;
+}
+
+h5{
+    background-color: #12121200;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 0px;
+    transition: all 0.4s ease-out;
+}
+
 
 @media (max-width: 1000px) {
     h2{
