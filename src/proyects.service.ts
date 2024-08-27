@@ -19,10 +19,21 @@ export class ProyectsService {
       type: 'fullstack',
     },
     {
+      title: 'SpringBoot Microservices App',
+      description: 'This project is a microservices system developed with Spring Boot for managing schools and students. \n '+
+      ' It utilizes Eureka for service discovery, MySQL as the database, and Zipkin for monitoring metrics.\n'+
+      'It serves as a practical example of how to design scalable and distributed architectures, while maintaining flexibility in the development and deployment of independent services. \n',
+      stack: ['Java','Springboot','MySql','Docker','Zipkin','Eureka','HTTP'],
+      img: '../assets/diagram.png',
+      backendRepo: 'https://github.com/mantovanoMateo/school-micro-services-spring-boot/tree/main',
+      preview:'',
+      type: 'backend',
+    },
+    {
       title: 'SpringBoot WebSockets Chat App',
       description: 'I developed a real-time chat application using Java Spring Boot and WebSockets to enable seamless, bidirectional communication between users \n '+
       ' This project implements a server architecture that efficiently handles concurrent connections, allowing users to send and receive messages instantly within a web interface \n',
-      stack: ['Springboot','Mongo Express','WebSockets'],
+      stack: ['Java','Springboot','Mongo Express','WebSockets'],
       img: '../assets/websocket.jpg',
       backendRepo: 'https://github.com/mantovanoMateo/java-springboot-web-sockets',
       preview:'',
