@@ -67,6 +67,10 @@ h4 {
     font-weight: 300;
 }
 
+.cta {
+    text-align: center;
+}
+
 .heroText{
     background-color: rgba(0, 0, 0, 0);
 }
